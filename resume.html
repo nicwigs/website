@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nic Wiggins</title>
+		<title>Nic Wiggins Resume</title>
 		<link href="style/style.css" rel="stylesheet">
 	</head>
 	<body>
@@ -12,14 +12,11 @@
 					<li><a href="./resume.html">Resume</a></li>
 				</ul>
 			</nav>
-			<section class="home-top">
-				<img src="media/images/nic.jpg">
-				<div>
-					<h2>I am Nic Wiggins</h2>
-					<p>This is my website
-					</p>
-				</div>
-			</section>
+			<section class="resume-top">
+				<div id="resumepdf"></div>
+		        <script src="js/pdfobject.js"></script>
+		        <script>PDFObject.embed("media/resume091218.pdf", "#resumepdf");</script>
+		    </section>
 			<footer>
 				<p>Copyright 2019. For more information, contact Nic Wiggins</p>
 			</footer>

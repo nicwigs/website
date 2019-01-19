@@ -1,0 +1,101 @@
+/* ABOUT  */
+
+:root {
+	--a: #956446;
+	--b: #919396;
+	--c: #6B8B9A;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: helvetica;
+	color: var(--b);
+}
+
+body {
+	background-color: white;
+	line-height: 1.4;
+	font-size: 1.5rem;
+	font-style: oblique;
+	font-weight: lighter;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+}
+/* Main Page */
+
+.main-nav ul {
+	display: grid;
+	grid-gap: 20px;
+	padding: 1rem;
+	margin: 0;
+	list-style: none;
+	background: var(--c);
+	font-size: 1.8rem;
+	font-style: normal;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.main-nav a {
+	display: block;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: Helvetica;
+}
+
+.main-nav a:hover {
+	background: white;
+	color: var(--c);
+}
+
+
+.home-top {
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2,1fr);
+	padding: 2rem;
+}
+
+.home-top h2{
+	font-size: 3rem;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+/* Resume Page */
+
+.resume-top {
+	display:grid;
+	grid-gap: 20px;
+	padding: 0 2rem;
+	margin: 0;
+	height: 50rem;
+}
+#resumepdf {
+	padding: 0rem;    /* Change height of Angus */
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+/* Common */
+
+footer {
+	background: var(--c);
+	color: white;
+	text-align: center;
+	font-size: 1rem;
+	padding: 1rem;
+}
